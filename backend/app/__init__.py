@@ -1,0 +1,1 @@
+"""BottleCap Checker backend application."""
