@@ -1,0 +1,41 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node / frontend
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Jupyter / Kaggle
+.ipynb_checkpoints/
+.kaggle/
+
+# Raw local datasets and temporary outputs (reports/models explicitly tracked)
+data/
+datasets/
+uploads/
+outputs/
+runs/
+*.zip
+*.7z
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local backups
+*.bak
