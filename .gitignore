@@ -1,41 +1,70 @@
-# Python environments and caches
+# BottleCap Checker — tracked notebook, reports and explicitly committed model artifacts
+
+# Python virtual environments, caches, coverage
 .venv/
 venv/
+env/
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
 
-# Local environment / secrets
+# Secrets / local configuration (retain public template)
 .env
 .env.*
 !.env.example
 *.pem
 *.key
+*.p12
+*.pfx
+*credentials*.json
 
-# Node / frontend
+# JavaScript / Vite / TypeScript
 node_modules/
 dist/
 coverage/
 *.tsbuildinfo
+.vite/
 
-# Jupyter / Kaggle
+# Notebook and local experimentation caches
 .ipynb_checkpoints/
 .kaggle/
+wandb/
+mlruns/
+lightning_logs/
 
-# Raw local datasets and temporary outputs (reports/models explicitly tracked)
-data/
-datasets/
-uploads/
-outputs/
-runs/
+# Raw/derived local datasets, runtime requests, temporary runs
+/data/
+/datasets/
+/uploads/
+/outputs/
+/runs/
+/tmp/
+/temp/
 *.zip
 *.7z
+*.rar
+*.tar.gz
 
-# OS
+# Local platform and editor noise
 .DS_Store
 Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
 
-# Local backups
+# Backups, swaps and temporary logs
 *.bak
+*.swp
+*.swo
+*.tmp
+*.log
+
+# IMPORTANT: Do not globally ignore *.pt / *.onnx / *.ipynb, models/, reports/, or assets/plots/.
+# These exact research artifacts are intentionally versioned in this repository.
