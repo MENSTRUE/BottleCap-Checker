@@ -1,0 +1,27 @@
+{
+  "source": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Bottle Defects.v28i.yolov8",
+  "classes": [
+    "Broken Cap",
+    "Broken Ring",
+    "Good Cap",
+    "Loose Cap",
+    "No Cap"
+  ],
+  "images_checked": 623,
+  "split_images": {
+    "train": 398,
+    "valid": 113,
+    "test": 112
+  },
+  "box_counts": {
+    "Broken Ring": 66,
+    "Loose Cap": 158,
+    "Broken Cap": 63,
+    "Good Cap": 218,
+    "No Cap": 161
+  },
+  "invalid_count": 0,
+  "invalid_examples": [],
+  "cross_split_exact_duplicate_hash_count": 0,
+  "cross_split_hash_examples": []
+}

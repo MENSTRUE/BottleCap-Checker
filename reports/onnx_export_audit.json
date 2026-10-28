@@ -1,0 +1,7 @@
+{
+  "attempted": true,
+  "status": "success",
+  "source": "/kaggle/working/bottlecap_day23/models/bottlecap_primary_best.onnx",
+  "model": "/kaggle/working/bottlecap_day23/models/bottlecap_primary_best.onnx",
+  "bytes": 12750110
+}

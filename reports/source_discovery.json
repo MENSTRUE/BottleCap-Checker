@@ -1,0 +1,33 @@
+[
+  {
+    "root": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Bottle Defects.v28i.yolov8",
+    "yaml": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Bottle Defects.v28i.yolov8/data.yaml",
+    "classes": [
+      "Broken Cap",
+      "Broken Ring",
+      "Good Cap",
+      "Loose Cap",
+      "No Cap"
+    ],
+    "splits": {
+      "train": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Bottle Defects.v28i.yolov8/train/images",
+      "valid": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Bottle Defects.v28i.yolov8/valid/images",
+      "test": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Bottle Defects.v28i.yolov8/test/images"
+    }
+  },
+  {
+    "root": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging",
+    "yaml": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/data.yaml",
+    "classes": [
+      "Cap",
+      "Missing",
+      "Wrong bottle",
+      "box"
+    ],
+    "splits": {
+      "train": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/images",
+      "valid": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/valid/images",
+      "test": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/test/images"
+    }
+  }
+]

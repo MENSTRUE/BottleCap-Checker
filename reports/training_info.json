@@ -1,0 +1,8 @@
+{
+  "ultralytics": "8.4.190",
+  "device": "0",
+  "requested_epochs": 65,
+  "training_seconds": 248.47,
+  "run_dir": "/kaggle/working/bottlecap_day23/runs/primary_yolov8n",
+  "best_checkpoint": "/kaggle/working/bottlecap_day23/runs/primary_yolov8n/weights/best.pt"
+}

@@ -1,0 +1,16 @@
+{
+  "split": "val",
+  "precision": 0.9207294149923848,
+  "recall": 0.9085284280936456,
+  "map50": 0.9572673395445135,
+  "map50_95": 0.786649903755794,
+  "per_class_map50_95": {
+    "Broken Cap": 0.8055386363636364,
+    "Broken Ring": 0.453,
+    "Good Cap": 0.9435634146341464,
+    "Loose Cap": 0.7706560331989395,
+    "No Cap": 0.9604914345822481
+  },
+  "dataset_images": 113,
+  "run_dir": "/kaggle/working/bottlecap_day23/runs/primary_validation"
+}

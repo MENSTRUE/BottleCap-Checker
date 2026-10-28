@@ -1,0 +1,78 @@
+{
+  "project": "BottleCap Checker",
+  "day": 23,
+  "task": "5-class object detection",
+  "primary_source": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Bottle Defects.v28i.yolov8/data.yaml",
+  "primary_classes": [
+    "Broken Cap",
+    "Broken Ring",
+    "Good Cap",
+    "Loose Cap",
+    "No Cap"
+  ],
+  "dataset_counts": {
+    "train": 398,
+    "valid": 113,
+    "test": 112
+  },
+  "source_label_count": {
+    "Broken Ring": 66,
+    "Loose Cap": 158,
+    "Broken Cap": 63,
+    "Good Cap": 218,
+    "No Cap": 161
+  },
+  "source_audit": {
+    "invalid": 0,
+    "exact_cross_split_hashes": 0,
+    "cross_split_filename_families": 0
+  },
+  "checkpoint_selection": "Ultralytics best.pt selected on source validation only",
+  "validation": {
+    "split": "val",
+    "precision": 0.9207294149923848,
+    "recall": 0.9085284280936456,
+    "map50": 0.9572673395445135,
+    "map50_95": 0.786649903755794,
+    "per_class_map50_95": {
+      "Broken Cap": 0.8055386363636364,
+      "Broken Ring": 0.453,
+      "Good Cap": 0.9435634146341464,
+      "Loose Cap": 0.7706560331989395,
+      "No Cap": 0.9604914345822481
+    },
+    "dataset_images": 113,
+    "run_dir": "/kaggle/working/bottlecap_day23/runs/primary_validation"
+  },
+  "heldout_test": {
+    "split": "test",
+    "precision": 0.9002763692809642,
+    "recall": 0.93376881996345,
+    "map50": 0.9521119919493113,
+    "map50_95": 0.7598204984886472,
+    "per_class_map50_95": {
+      "Broken Cap": 0.7439461151828267,
+      "Broken Ring": 0.37346104111723655,
+      "Good Cap": 0.9136948051948053,
+      "Loose Cap": 0.824688906298508,
+      "No Cap": 0.94331162464986
+    },
+    "dataset_images": 112,
+    "run_dir": "/kaggle/working/bottlecap_day23/runs/primary_final_test"
+  },
+  "secondary": "audited only; different four-class ontology",
+  "onnx": {
+    "attempted": true,
+    "status": "success",
+    "source": "/kaggle/working/bottlecap_day23/models/bottlecap_primary_best.onnx",
+    "model": "/kaggle/working/bottlecap_day23/models/bottlecap_primary_best.onnx",
+    "bytes": 12750110
+  },
+  "limitations": [
+    "Published train/valid/test splits and classes retained; no image-level similarity benchmark beyond filename-family and exact hashes.",
+    "Near-identical images with different names or crops can evade leakage audits.",
+    "mAP is object detection quality, not factory-grade QA pass probability.",
+    "Pretrained YOLO model, one architecture and one seed; no external factory-domain validation.",
+    "Source Roboflow export says CC BY 4.0; attribute dataset authors and verify secondary dataset rights independently."
+  ]
+}

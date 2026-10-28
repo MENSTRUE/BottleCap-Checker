@@ -1,0 +1,6 @@
+{
+  "unique_families": 623,
+  "cross_split_family_count": 0,
+  "examples": [],
+  "note": "Filename family heuristic; does not rule out visually similar scenes with unrelated names."
+}

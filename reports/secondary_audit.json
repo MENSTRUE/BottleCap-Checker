@@ -1,0 +1,217 @@
+{
+  "source": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging",
+  "classes": [
+    "Cap",
+    "Missing",
+    "Wrong bottle",
+    "box"
+  ],
+  "images_checked": 0,
+  "split_images": {},
+  "box_counts": {},
+  "invalid_count": 9651,
+  "invalid_examples": [
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_48_03_Pro_jpg.rf.2e740ef97859930babb7542d444acb49.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_48_03_Pro_jpg.rf.7966f0f2ccea5d08a2de271a2577aeac.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_48_34_Pro_jpg.rf.9dd927d3f2449c365f63a10e7d23c8b0.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_48_42_Pro_jpg.rf.3788c415344915a7005301079abebd7a.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_48_42_Pro_jpg.rf.5714f8a9ac97b3001bb7647c4997ceba.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_48_42_Pro_jpg.rf.ff6b354fb1a19cb18fcf98ebd7927ee4.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_48_49_Pro_jpg.rf.d3c4d38d48c7e9c7e5dda36a197faabf.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_49_12_Pro-2-_jpg.rf.4a64583243b607234a3dbce47ac78f3b.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_49_12_Pro-2-_jpg.rf.8aaade45f63c4578081f4687f5f77274.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_49_13_Pro_jpg.rf.1bf629b3ad1cce716f7379eecf9f98af.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_58_25_Pro-2-_jpg.rf.0ef1a7d5da630bc5fdd327e0cd9cab20.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_58_25_Pro-2-_jpg.rf.2dc571f0693665f559e6e36b047ddb50.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_58_37_Pro_jpg.rf.2fe479f98afe9e87ebb1a7d18b160fdf.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_58_37_Pro_jpg.rf.3bfd3e20349352bed2072cc7d6f61ca8.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_58_37_Pro_jpg.rf.53c01b8c1f1ae0e9bb9d5014fd42bf2f.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_58_37_Pro_jpg.rf.632c8a40ca83924dfaa1c723668c5ce4.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_58_37_Pro_jpg.rf.76afe807accd48acee8a3cb3b4e7fec6.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_58_41_Pro_jpg.rf.86f13ef2f17548fded88fa18adaae7d8.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_58_41_Pro_jpg.rf.db1ceda49f557843a2156163894ca4ff.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_58_54_Pro_jpg.rf.cb5b6260fb541e33f8d67fff4b506ab3.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_58_55_Pro_jpg.rf.17e8746afd03c0f34cf5fb77d3cadc47.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_58_55_Pro_jpg.rf.5aaee1246c8331d21015de2245c58328.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_59_25_Pro_jpg.rf.b4f72739ff73309816fb3be30aadea0b.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_59_27_Pro_jpg.rf.09887a5d13641901dd7e1612b59eb64d.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_59_27_Pro_jpg.rf.3a62778ec251c4b8c0e57c1fc11b3050.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_59_27_Pro_jpg.rf.9ab36a9deb376b4ee2dd8766d1f9167f.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_11_59_27_Pro_jpg.rf.b7ebfab4ee13e6e0c8cd9752da8b55a8.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_02_15_Pro_jpg.rf.300f683b4e285567abab50e818ad0721.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_02_47_Pro_jpg.rf.8ac5549787fd512327a5bdd9e958e170.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_03_06_Pro-2-_jpg.rf.0334702070f9155debfd93ba73ff5a66.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_03_06_Pro-2-_jpg.rf.e4b6259b9cf7a6e99e52502032adfd47.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_03_06_Pro-2-_jpg.rf.ee73b15d1a90b111b9f1e770dfd6c3b2.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_04_27_Pro-2-_jpg.rf.046c4a16b4975b2285b35898ca48b5e4.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_04_27_Pro-2-_jpg.rf.14eadcbd289fc05c37527502b04c9cb8.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_04_27_Pro-2-_jpg.rf.9ef134954c4df5bc4be828343aab68a5.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_04_27_Pro-2-_jpg.rf.ee63e2dc6db55866ff19bbcd5db5636f.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_04_35_Pro_jpg.rf.348eb58c1c7c00df1bb0e18bfe60f15f.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_04_35_Pro_jpg.rf.58b5c9dc8047fcbeeaff66af1eaeed9b.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_05_54_Pro_jpg.rf.64a3361821d59653c600cc1b7ed3ef31.txt"
+    },
+    {
+      "split": "train",
+      "issue": "orphan_label",
+      "file": "/kaggle/input/datasets/loliwibu/bottlecap-checker-day23-datasets/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging Defects and Associated Cost o/Dataset of Packaging/Dataset of Packaging/train/labels/WIN_20240221_12_05_54_Pro_jpg.rf.75cdc77a2875db93ad8cb5b7eee3ff98.txt"
+    }
+  ],
+  "cross_split_exact_duplicate_hash_count": 0,
+  "cross_split_hash_examples": []
+}
